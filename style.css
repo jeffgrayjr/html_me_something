@@ -1,12 +1,6 @@
-h1 {
+h1, h2, figure {
     text-align: center;
     
-}
-h2 {
-    text-align: center;
-}
-figure {
-    text-align: center;
 }
 img {
     max-width:40%; /* you can use % */
@@ -17,6 +11,7 @@ img {
 }
 body {
     margin: 5%;
+    background-color: rgb(219, 222, 223);
 }
 nav ul {
     list-style: none;
@@ -31,7 +26,7 @@ section {
     margin: 1em;
     border-color: black;
     border-style: solid;
-    background-image: linear-gradient(gray, lightgray);
+    background-image: linear-gradient(lightskyblue, lightblue);
 
 }
 a {
@@ -41,10 +36,14 @@ a:visited, a:link {
     color:black;
 }
 a:hover{
-    color: white;
+    font-size: 1.25em; 
+}
+nav ul li:hover{
+    height: 2.3em%;
+    width: 12%;
 }
 nav ul li {
-    background-color: lightgray;
+    background-color: lightskyblue;
     border-color: black;
     border-style: solid;
     border-radius: 10px;
@@ -70,6 +69,6 @@ hr {
     height:0px;
     padding: 0px;
 }
-h1, header h2 {
+h1, h2 {
     font-family: "Bookman Old Style";
 }
